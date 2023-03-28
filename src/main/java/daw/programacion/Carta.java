@@ -12,7 +12,7 @@ public class Carta {
 
     @Override
     public String toString() {
-        return "Carta [palo=" + palo + ", figura=" + figura + "]";
+        return figura + " de " + palo;
     }
 
     public String getPalo() {
